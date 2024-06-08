@@ -15,10 +15,11 @@
         <form>
             <div class="row">
                 <div class="col">
-                    <h2 style="text-align: center">Register</h2>
+                    <h2 style="text-align: center">BMI Calculator</h2>
                 </div>
                 <br-2>
                     <hr>
+                    <!-- Name -->
                     <div class="row mb-3">
                         <div class="col-md-3 col-form-label">Name</div>
                         <div class="col">
@@ -30,34 +31,70 @@
                             Last Name
                         </div>
                     </div>
-                    <div class="text-align: center">
+                    <!-- Male, Female -->
+                    <div class="text-center m-3">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            <input class="form-check-input" type="radio" name="male"
                                 value="option1">
-                            <label class="form-check-label" for="inlineRadio1">male</label>
+                            <label class="form-check-label" for="inlineRadio1">Male</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            <input class="form-check-input" type="radio" name="female"
                                 value="option2">
-                            <label class="form-check-label" for="inlineRadio2">female</label>
+                            <label class="form-check-label" for="inlineRadio2">Female</label>
                         </div>
                     </div>
+                    <!-- Phone Number -->
                     <div class="row mb-3">
-                        <label for="text" class="col-sm-3 col-form-label">Phone Number</label>
+                        <label for="text" class="col-md-3 col-form-label">Phone Number</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="Phonenumber" required>
+                            <input type="text" class="form-control" name="phonenumber" required>
                         </div>
                     </div>
-        </form>
-    </div>
+                    <!-- Birthday -->
+                    <div class="row mb-3">
+                            <label for="birthday" class="col-md-3 col-form-label">Birthday</label>
+                        <div class="col-sm-9">
+                            <input type="date" class="form-control" name="birthday" required>
+                        </div>
+                    </div>
+                    <!-- Height -->
+                    <div class="row mb-3">
+                        <label for="text" class="col-md-3 col-form-label">Height (in)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="height" required>
+                        </div>
+                    </div>
+                    <!-- Weight -->
+                    <div class="row mb-3">
+                        <label for="text" class="col-md-3 col-form-label">Weight (lb)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="weight" required>
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div class="row mb-3">
+                        <label for="email" class="col-md-3 col-form-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                    </div>
+                    <!-- Password -->
+                    <div class="row mb-3">
+                        <label for="password" class="col-md-3 col-form-label">Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" name="password" required>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="text-center m-3">
+                        <button type="button" class="btn btn-success">Submit</button>
+                    </div>
+                    <p>Already a member? <a href="/login">Sign in</a></p>
+                    
+            </div>
 
 </body>
 
 </html>
-<!--
-<div class="form-group row m-3">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Phone number</label>
-    <div class="col-sm-10">
-        <input type="int" class="form-control " required>
-    </div>
-</div>
