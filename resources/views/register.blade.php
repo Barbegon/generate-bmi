@@ -37,37 +37,36 @@
                     <div class="row mb-3">
                         <label for="text" class="col-md-3 col-form-label">Phone Number</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="phonenumber" required>
+                            <input type="text" class="form-control" name="phone_number" required>
                         </div>
                     </div>
                     <!-- Name -->
                     <div class="row mb-3">
                         <div class="col-md-3 col-form-label">Name</div>
                         <div class="col">
-                            <input type="text" class="form-control" name="firstname" required>
+                            <input type="text" class="form-control" name="first_name" required>
                             First Name
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" name="lastname" required>
+                            <input type="text" class="form-control" name="last_name" required>
                             Last Name
                         </div>
                     </div>
                     <!-- Male, Female -->
-                    <div class="text-center m-3">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="male" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Male</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="female" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                    <div class="row mb-3">
+                        <label for="sex" class="col-md-3">Sex</label>
+                        <div class="col-sm-9 p-3">
+                            <input type="radio"name="sex">
+                            <label for="male" class="pe-3">Male</label>
+                            <input type="radio" name="sex">
+                            <label for="female">Female</label>
                         </div>
                     </div>
                     <!-- Birthday -->
                     <div class="row mb-3">
                         <label for="birthday" class="col-md-3 col-form-label">Birthday</label>
                         <div class="col-sm-9">
-                            <input type="date" class="form-control" name="birthday" required>
+                            <input type="date" class="form-control" name="birth_date" required>
                         </div>
                     </div>
                     <!-- Height -->
@@ -88,8 +87,8 @@
                     <hr>
                     <div class="text-center m-3">
                         <button type="button" class="btn btn-success">Submit</button>
+                        <a href="/" class="btn btn-danger">Cancel</a>
                     </div>
-                    <p>Already a member? <a href="/">Sign in</a></p>
 
             </div>
 
