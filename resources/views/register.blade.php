@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div class="container p-5">
-        <form>
+    <form>
+        <div class="container p-5">
             <div class="row">
                 <div class="col">
                     <h2 style="text-align: center">BMI Calculator</h2>
@@ -91,7 +91,8 @@
                     </div>
 
             </div>
-
+        </div>
+    </form>
 </body>
 
 </html>
