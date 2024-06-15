@@ -37,8 +37,10 @@
                 <h1 class="display-1 fw-bolder text-success">21.23</h1>
                 <h3 class="text-success">Nomal</h3>
             </div>
-            <hr>
-            <!-- Email -->
+            <br>
+            <br>
+
+            <!-- Sex -->
             <div class="d-flex justify-content-center  text-center">
                 <div class="p-2" style="width: 100px;">
                     <h4>Sex</h4>
@@ -47,7 +49,8 @@
                     <h4>Male</h4>
                 </div>
             </div>
-            <!-- Email -->
+            <hr>
+            <!-- Age -->
             <div class="d-flex justify-content-center text-center">
                 <div class="p-2" style="width: 100px;">
                     <h4>Age</h4>
@@ -56,7 +59,8 @@
                     <h4>20</h4>
                 </div>
             </div>
-            <!-- Email -->
+            <hr>
+            <!-- Hight -->
             <div class="d-flex justify-content-center text-center">
                 <div class="p-2" style="width: 100px;">
                     <h4>Hight</h4>
@@ -65,7 +69,8 @@
                     <h4>172</h4>
                 </div>
             </div>
-            <!-- Email -->
+            <hr>
+            <!-- Weight -->
             <div class="d-flex justify-content-center text-center">
                 <div class="p-2" style="width: 100px;">
                     <h4>Weight</h4>

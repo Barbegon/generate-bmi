@@ -12,3 +12,10 @@
     border: white;
     cursor: pointer;
 }
+
+.button_right {
+    background-color: white;
+    border: white;
+    cursor: pointer;
+    justify-content:right;
+}
